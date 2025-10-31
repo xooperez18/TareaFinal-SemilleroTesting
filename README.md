@@ -12,6 +12,17 @@ Se realiza la prueba de la búsqueda de “PlayStation 5” en MercadoLibre Méx
 
 ##  Instalación
 ```bash
-git clone 
+git clone https://github.com/xooperez18/TareaFinal-SemilleroTesting.git
 cd test-mercadolibre
 npm install
+
+##Correr la prueba
+npx codeceptjs run --features
+
+##Las Screenshot se guardan en la carpeta Output
+
+## Abrir el reporte de Allure:
+npx allure open output/allure-report
+
+
+
